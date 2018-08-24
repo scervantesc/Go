@@ -24,7 +24,7 @@ func main() {
 	}
 
 	var status string
-	if puntuacion >= 50 {
+	if puntuacion >= 6 {
 		status = "aprobado"
 	} else {
 		status = "suspenso"
